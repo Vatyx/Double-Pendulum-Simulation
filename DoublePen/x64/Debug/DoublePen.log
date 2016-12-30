@@ -1,0 +1,103 @@
+﻿Build started 12/24/2016 7:58:22 PM.
+     1>Project "C:\Users\sahil\OneDrive\Documents\Visual Studio 2015\Projects\DoublePen\DoublePen\DoublePen.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\sahil\OneDrive\Documents\Visual Studio 2015\Projects\DoublePen\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/include/" /ZI /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt Main.cpp Mesh.cpp Simulation.cpp
+         Simulation.cpp
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\vec3.h(51): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\vec3.h(130): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\plane.h(75): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\matrix.h(204): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\matrix.h(205): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\mesh.h(13): warning C4099: 'Face': type name first seen using 'class' now seen using 'struct'
+         c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\mesh.h(12): note: see declaration of 'Face'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\mesh.h(25): warning C4099: 'Vertex': type name first seen using 'class' now seen using 'struct'
+         c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\mesh.h(24): note: see declaration of 'Vertex'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\mesh.h(33): warning C4099: 'Mesh': type name first seen using 'class' now seen using 'struct'
+         c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\mesh.h(33): note: see declaration of 'Mesh'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\sphere.h(5): warning C4099: 'Sphere': type name first seen using 'class' now seen using 'struct'
+         c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\sphere.h(5): note: see declaration of 'Sphere'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.cpp(17): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.cpp(18): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.cpp(20): warning C4305: '=': truncation from 'double' to 'float'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.cpp(33): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.cpp(66): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.cpp(77): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.cpp(165): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.cpp(166): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.cpp(167): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.cpp(169): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.cpp(170): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.cpp(171): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.cpp(219): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.cpp(289): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.cpp(335): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.cpp(336): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.cpp(354): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.cpp(355): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.cpp(360): warning C4305: 'argument': truncation from 'double' to 'const float'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.cpp(376): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.cpp(462): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.cpp(463): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.cpp(477): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.cpp(478): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.cpp(654): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.cpp(666): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.cpp(671): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.cpp(672): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+         Mesh.cpp
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\vec3.h(51): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\vec3.h(130): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\matrix.h(204): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\matrix.h(205): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\plane.h(75): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.h(23): warning C4099: 'Mesh': type name first seen using 'struct' now seen using 'class'
+         c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\mesh.h(33): note: see declaration of 'Mesh'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.h(25): warning C4099: 'Vertex': type name first seen using 'struct' now seen using 'class'
+         c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\mesh.h(25): note: see declaration of 'Vertex'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.h(26): warning C4099: 'Face': type name first seen using 'struct' now seen using 'class'
+         c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\mesh.h(13): note: see declaration of 'Face'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\mesh.cpp(87): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+         Main.cpp
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\vec3.h(51): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\vec3.h(130): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\matrix.h(204): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\matrix.h(205): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\plane.h(75): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.h(23): warning C4099: 'Mesh': type name first seen using 'struct' now seen using 'class'
+         c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\mesh.h(33): note: see declaration of 'Mesh'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.h(24): warning C4099: 'Sphere': type name first seen using 'struct' now seen using 'class'
+         c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\sphere.h(5): note: see declaration of 'Sphere'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.h(25): warning C4099: 'Vertex': type name first seen using 'struct' now seen using 'class'
+         c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\mesh.h(25): note: see declaration of 'Vertex'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.h(26): warning C4099: 'Face': type name first seen using 'struct' now seen using 'class'
+         c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\mesh.h(13): note: see declaration of 'Face'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(30): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(30): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(32): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(32): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(41): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(94): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(94): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(138): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(138): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(247): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(247): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(249): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(249): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(274): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(277): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(357): warning C4101: 'SubMenu4': unreferenced local variable
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(357): warning C4101: 'SubMenu1': unreferenced local variable
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(357): warning C4101: 'SubMenu3': unreferenced local variable
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(357): warning C4101: 'SubMenu2': unreferenced local variable
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\sahil\OneDrive\Documents\Visual Studio 2015\Projects\DoublePen\x64\Debug\DoublePen.exe" /INCREMENTAL /NOLOGO /NATVIS:eigen.natvis "C:\Users\sahil\OneDrive\Documents\Visual Studio 2015\Projects\DoublePen\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/x64\glew32.lib" "C:\Users\sahil\OneDrive\Documents\Visual Studio 2015\Projects\DoublePen\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/x64\glfw3dll.lib" "C:\Users\sahil\OneDrive\Documents\Visual Studio 2015\Projects\DoublePen\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/x64\freeglut.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\sahil\OneDrive\Documents\Visual Studio 2015\Projects\DoublePen\x64\Debug\DoublePen.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\sahil\OneDrive\Documents\Visual Studio 2015\Projects\DoublePen\x64\Debug\DoublePen.lib" /MACHINE:X64 x64\Debug\Main.obj
+         x64\Debug\Mesh.obj
+         x64\Debug\Simulation.obj
+         DoublePen.vcxproj -> C:\Users\sahil\OneDrive\Documents\Visual Studio 2015\Projects\DoublePen\x64\Debug\DoublePen.exe
+     1>Done Building Project "C:\Users\sahil\OneDrive\Documents\Visual Studio 2015\Projects\DoublePen\DoublePen\DoublePen.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.40

@@ -1,0 +1,36 @@
+﻿Build started 11/28/2016 5:01:45 PM.
+     1>Project "c:\Users\sahil\OneDrive\documents\visual studio 2015\Projects\DoublePen\DoublePen\DoublePen.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"c:\Users\sahil\OneDrive\documents\visual studio 2015\Projects\DoublePen\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/include/" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\vec3.h(51): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\vec3.h(130): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\matrix.h(204): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\matrix.h(205): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\plane.h(75): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.h(23): warning C4099: 'Mesh': type name first seen using 'struct' now seen using 'class'
+         c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\mesh.h(33): note: see declaration of 'Mesh'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.h(24): warning C4099: 'Vertex': type name first seen using 'struct' now seen using 'class'
+         c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\mesh.h(25): note: see declaration of 'Vertex'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\simulation.h(25): warning C4099: 'Face': type name first seen using 'struct' now seen using 'class'
+         c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\mesh.h(13): note: see declaration of 'Face'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(43): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(46): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(48): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(74): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(108): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(111): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(167): warning C4101: 'SubMenu4': unreferenced local variable
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(167): warning C4101: 'SubMenu1': unreferenced local variable
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(167): warning C4101: 'SubMenu3': unreferenced local variable
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\main.cpp(167): warning C4101: 'SubMenu2': unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\sahil\onedrive\documents\visual studio 2015\Projects\DoublePen\Debug\DoublePen.exe" /INCREMENTAL /NOLOGO "c:\Users\sahil\OneDrive\documents\visual studio 2015\Projects\DoublePen\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\glew32.lib" "c:\Users\sahil\OneDrive\documents\visual studio 2015\Projects\DoublePen\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\glfw3dll.lib" "c:\Users\sahil\OneDrive\documents\visual studio 2015\Projects\DoublePen\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\freeglut.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"c:\users\sahil\onedrive\documents\visual studio 2015\Projects\DoublePen\Debug\DoublePen.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\sahil\onedrive\documents\visual studio 2015\Projects\DoublePen\Debug\DoublePen.lib" /MACHINE:X86 Debug\Main.obj
+         Debug\Mesh.obj
+         Debug\Simulation.obj
+         DoublePen.vcxproj -> c:\users\sahil\onedrive\documents\visual studio 2015\Projects\DoublePen\Debug\DoublePen.exe
+     1>Done Building Project "c:\Users\sahil\OneDrive\documents\visual studio 2015\Projects\DoublePen\DoublePen\DoublePen.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.09

@@ -1,0 +1,53 @@
+﻿Build started 12/13/2016 3:14:22 AM.
+     1>Project "C:\Users\sahil\OneDrive\documents\visual studio 2015\Projects\DoublePen\DoublePen\DoublePen.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\sahil\OneDrive\documents\visual studio 2015\Projects\DoublePen\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/include/" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt Simulation.cpp
+         Simulation.cpp
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\vec3.h(51): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\vec3.h(130): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\Plane.h(75): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\matrix.h(204): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\matrix.h(205): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\Mesh.h(13): warning C4099: 'Face': type name first seen using 'class' now seen using 'struct'
+         c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\Mesh.h(12): note: see declaration of 'Face'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\Mesh.h(25): warning C4099: 'Vertex': type name first seen using 'class' now seen using 'struct'
+         c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\Mesh.h(24): note: see declaration of 'Vertex'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\Mesh.h(33): warning C4099: 'Mesh': type name first seen using 'class' now seen using 'struct'
+         c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\Mesh.h(33): note: see declaration of 'Mesh'
+     1>c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\Sphere.h(5): warning C4099: 'Sphere': type name first seen using 'class' now seen using 'struct'
+         c:\users\sahil\onedrive\documents\visual studio 2015\projects\doublepen\doublepen\Sphere.h(5): note: see declaration of 'Sphere'
+     1>Simulation.cpp(17): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Simulation.cpp(18): warning C4305: '=': truncation from 'double' to 'float'
+     1>Simulation.cpp(31): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>Simulation.cpp(36): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+     1>Simulation.cpp(105): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>Simulation.cpp(175): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>Simulation.cpp(221): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>Simulation.cpp(222): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>Simulation.cpp(240): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>Simulation.cpp(241): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>Simulation.cpp(246): warning C4305: 'argument': truncation from 'double' to 'const float'
+     1>Simulation.cpp(262): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>Simulation.cpp(348): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>Simulation.cpp(349): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>Simulation.cpp(363): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>Simulation.cpp(364): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>Simulation.cpp(540): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>Simulation.cpp(552): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>Simulation.cpp(557): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>Simulation.cpp(558): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\sahil\onedrive\documents\visual studio 2015\Projects\DoublePen\x64\Release\DoublePen.exe" /NOLOGO /NATVIS:eigen.natvis "C:\Users\sahil\OneDrive\documents\visual studio 2015\Projects\DoublePen\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/x64\glew32.lib" "C:\Users\sahil\OneDrive\documents\visual studio 2015\Projects\DoublePen\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/x64\glfw3dll.lib" "C:\Users\sahil\OneDrive\documents\visual studio 2015\Projects\DoublePen\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/x64\freeglut.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\sahil\onedrive\documents\visual studio 2015\Projects\DoublePen\x64\Release\DoublePen.pdb" /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\sahil\onedrive\documents\visual studio 2015\Projects\DoublePen\x64\Release\DoublePen.lib" /MACHINE:X64 x64\Release\Main.obj
+         x64\Release\Mesh.obj
+         x64\Release\Simulation.obj
+         Generating code
+         1 of 4251 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           1 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+         DoublePen.vcxproj -> C:\Users\sahil\onedrive\documents\visual studio 2015\Projects\DoublePen\x64\Release\DoublePen.exe
+     1>Done Building Project "C:\Users\sahil\OneDrive\documents\visual studio 2015\Projects\DoublePen\DoublePen\DoublePen.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.68
